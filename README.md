@@ -4,7 +4,9 @@ Utility for collecting and processing data from multiple sources and generating 
 - Web page parsing class (class ParsingWeb). It should take place (implement each operation in separate methods):
     * getting the HTML code of the page "List of Moscow Metro stations" using the jsoup library;
     * parsing the received page and getting the following data from it (create separate classes for each data type):
+    
           - Moscow metro lines (name and line number, color is not needed) (class Line);
+          
           - Moscow metro stations (station name and line number) (class Station).
 
 - A class for searching files in folders (class FileSearch). implementation of traversal of folders lying in the archive (https://drive.google.com/file/d/1nb3NIfsIp7KLF0OfmZ_nzwYQLM9zfDUg/view?usp=sharing).
